@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class exerciciob {
+    public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+
+        
+		System.out.print("Digite um valor: ");
+		int n1 = in.nextInt();
+
+        System.out.print("Digite um valor: ");
+		int n2 = in.nextInt();
+
+        if(n1>n2){
+        System.out.print("O primeiro numero e maior");
+        }
+
+        else if(n2>n1){
+        System.out.print("O segundo numero e maior");
+        }
+
+    }
+}
