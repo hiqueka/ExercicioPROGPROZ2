@@ -1,0 +1,7 @@
+preço = int(input('Digite um preço: '))
+
+if preço>100:
+    desconto = (preço*10)/100
+    print("valor com desconto:",desconto)
+else:
+    print('Não tem desconto') 
